@@ -410,7 +410,6 @@ video {
 }
     
     h3 {
-  margin-top: 0.5rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
@@ -554,8 +553,23 @@ video {
 .mb-1 {
   margin-bottom: 0.25rem;
 }
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
 .ml-4 {
   margin-left: 1rem;
+}
+.ml-6 {
+  margin-left: 1.5rem;
+}
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.mt-6 {
+  margin-top: 1.5rem;
 }
 .inline-block {
   display: inline-block;

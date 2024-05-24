@@ -507,7 +507,7 @@ video {
 .flex-wrap {
   flex-wrap: wrap;
 }
-.bg-violet-400 {
+.bg-blue-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(167 139 250 / var(--tw-bg-opacity));
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
 }

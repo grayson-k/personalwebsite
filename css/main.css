@@ -1,3 +1,29 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer base {
+    body {
+        @apply bg-blue-200 p-3;
+    }
+
+    h1 {
+        @apply text-3xl;
+    }
+
+    h2 {
+        @apply text-2xl mt-4;
+    }
+    
+    h3 {
+        @apply text-xl mt-2;
+    }
+
+    li {
+        @apply list-none m-1;
+      }
+
+      a {
+        @apply text-blue-500 underline;
+      }
+}

@@ -31,4 +31,14 @@
     .table th {
         @apply border border-gray-200 p-1;
     }
+
+    .breadcrumb-list {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    .breadcrumb-list .breadcrumb-item + .breadcrumb-item::before {
+        content: ">";
+    }
 }

@@ -1,0 +1,20 @@
+# .gitignore
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore .DS_Store files (Mac OS)
+.DS_Store
+
+# Ignore .env files
+.env
+
+# Ignore dist/ or build/ directories
+dist/
+build/
+
+# Ignore log files
+*.log
+
+# Ignore npm debug logs
+npm-debug.log*

@@ -405,7 +405,6 @@ video {
 }
 
     h2 {
-  margin-top: 1rem;
   font-size: 1.5rem;
   line-height: 2rem;
 }
@@ -414,11 +413,6 @@ video {
   margin-top: 0.5rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-    li {
-  margin: 0.25rem;
-  list-style-type: none;
 }
 
     a {
@@ -434,16 +428,6 @@ video {
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
   padding: 0.25rem;
 }
-
-    .breadcrumb-list {
-        display: flex;
-        list-style: none;
-        padding: 0;
-    }
-
-    .breadcrumb-list .breadcrumb-item + .breadcrumb-item::before {
-        content: ">";
-    }
 
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
@@ -559,20 +543,52 @@ video {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
 }
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+.ml-4 {
+  margin-left: 1rem;
+}
+.inline-block {
+  display: inline-block;
+}
 .flex {
   display: flex;
 }
 .table {
   display: table;
 }
-.w-full {
-  width: 100%;
-}
 .border-collapse {
   border-collapse: collapse;
 }
+.list-inside {
+  list-style-position: inside;
+}
+.list-decimal {
+  list-style-type: decimal;
+}
 .list-none {
   list-style-type: none;
+}
+.justify-center {
+  justify-content: center;
+}
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .border-2 {
   border-width: 2px;
@@ -593,14 +609,28 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
 .p-0 {
   padding: 0px;
 }
 .p-4 {
   padding: 1rem;
 }
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+.pt-4 {
+  padding-top: 1rem;
+}
 .text-left {
   text-align: left;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 .font-bold {
   font-weight: 700;
@@ -611,4 +641,11 @@ video {
 }
 .underline {
   text-decoration-line: underline;
+}
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }

@@ -21,9 +21,14 @@
 
     li {
         @apply list-none m-1;
-      }
+    }
 
-      a {
+    a {
         @apply text-blue-500 underline;
-      }
+    }
+
+    .table td,
+    .table th {
+        @apply border border-gray-200 p-1;
+    }
 }
